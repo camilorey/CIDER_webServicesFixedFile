@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
   <endpoint implementation="net.services.CIDER_Services" name="CIDER_Services" url-pattern="/CIDER_Services"/>
+  <endpoint implementation="services.CIDER_Services2" name="CIDER_Services2" url-pattern="/CIDER_Services2"/>
 </endpoints>

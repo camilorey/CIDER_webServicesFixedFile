@@ -4,6 +4,9 @@
     <service name="CIDER_Services">
       <implementation-class>net.services.CIDER_Services</implementation-class>
     </service>
+    <service name="CIDER_Services2">
+      <implementation-class>services.CIDER_Services2</implementation-class>
+    </service>
   </services>
   <clients/>
   <jsr109>false</jsr109>

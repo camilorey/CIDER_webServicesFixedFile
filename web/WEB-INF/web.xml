@@ -13,12 +13,17 @@
         <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <servlet>
+        <servlet-name>CIDER_Services2</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
     <servlet-mapping>
         <servlet-name>DataHandler</servlet-name>
         <url-pattern>/DataHandler</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>CIDER_Services</servlet-name>
-        <url-pattern>/CIDER_Services</url-pattern>
+        <servlet-name>CIDER_Services2</servlet-name>
+        <url-pattern>/CIDER_Services2</url-pattern>
     </servlet-mapping>
 </web-app>

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.services;
+package services;
 
 import CIDER_DB.CIDER_Centro;
 import CIDER_DB.CIDER_DB;
@@ -24,13 +24,13 @@ import org.json.simple.parser.ParseException;
  *
  * @author laptop
  */
-@WebService(serviceName = "CIDER_Services")
-public class CIDER_Services {
+@WebService(serviceName = "CIDER_Services2")
+public class CIDER_Services2 {
  protected String fileName ="baseDeDatos_emailInstitucional.xlsx";
  protected String filePath ="C:\\desarrollo\\desarrolloCIDER\\CIDER_webServicesFixedFile\\data";
  protected CIDER_DB dataBase;
 
- public CIDER_Services() {
+ public CIDER_Services2() {
   if(dataBase == null){
    dataBase = new CIDER_DB(filePath,fileName);
    try{
@@ -383,5 +383,5 @@ public class CIDER_Services {
    asJSON.put(key, map.get(key));
   }
   return asJSON;
- }  
+ }
 }
